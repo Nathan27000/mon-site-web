@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+H1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: black;
+    border-radius: 10px;
+    color:white }
+    
+a{
+    color:black;
+    font-weight:bold;}
+   
+
+em{
+    color:#168314d6;
+}
+body{min-height: 100vh;
+    margin: 0; 
+    background-image:url(images/BG.jpg)}
+
+h2{background:linear-gradient(blue, white);
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;}
+   ol,p{ background: rgba(255, 255, 255, 0.5)} 
+    /* oublie de la commande et mettre en rgba  */
+li{list-style: none;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border: solid 2px green;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+div{border: solid 5px green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;}
+
+    ol{padding: 0;
+        display:flex;
+        justify-content:space-around}
+    
+        ul{padding: 0;
+            display:flex;
+            justify-content:space-around}
+        
